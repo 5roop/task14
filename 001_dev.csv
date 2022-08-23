@@ -1,0 +1,203 @@
+,utterance_id,gender,age,speaker_id,expression,manual_transcription,discrete_emotion_collection_phase,discrete_emotion_annotation_phase,valence_annotation_phase,arousal_annotation_phase,split,path,target
+0,246,f,adult,58,real,NEĆU NIŠTA NIJE NIKOM IŠTA GOVORILA KUŽIŠ ONO,anger,neutral,4.554597829,3.76430333,dev,cres_v2.1/audio_files_16000/246.wav,neutral
+1,312,m,adult,77,real,GDJE JE NESTALA ŽENSTVENOST TO JE TEMA NAŠE VEČERAŠNJE EMISIJE,neutral,neutral,6.463305656,3.915680792,dev,cres_v2.1/audio_files_16000/312.wav,neutral
+2,1033,f,adult,297,real,A ŽAO MI JE BILO SVEGA MISLIM DA TO MOJA OBITELJ GLEDA S TIM DA RADIM TO TAKO JAVNO DA IH SRAMOTIM,sadness,sadness,3.421714934,5.408594892,dev,cres_v2.1/audio_files_16000/1033.wav,sadness
+3,666,f,adult,202,acted,DAN DA MISLIM DA ĆE ON OD NEKUD IPAK DOĆI,sadness,sadness,3.80445689,5.683051622,dev,cres_v2.1/audio_files_16000/666.wav,sadness
+4,1040,f,adult,301,real,BURA I DALJE OMETA PROMET NA SJEVERNOM JADRANU,neutral,neutral,4.422233953,3.889944785,dev,cres_v2.1/audio_files_16000/1040.wav,neutral
+5,911,f,adult,305,real,CMIZDR IMA POKUŠANJE SI ZASTAJK SU GA ISKRIVILI POKUŠANJE SILOVANJA SMRC SAD SE NALAZI U ZATVORU UDH IDH SMRC,sadness,sadness,1.022684216,7.931561489,dev,cres_v2.1/audio_files_16000/911.wav,sadness
+6,191,f,adult,46,acted,E PA NE TREBA MI TVOJA ZAŠTITA SKORO SAM DOBILA OTKAZ ZBOG TVOJE GLUPOSTI,anger,anger,3.248897534,7.187567258,dev,cres_v2.1/audio_files_16000/191.wav,anger
+7,958,f,adult,279,real,JA SAM PROPATILA JER SAM TRIDEZT DANA NISAM KRUHA ß OGLEDALA NEG SAM SAMO PO JEDNO JAJE POPILA,sadness,sadness,2.075338421,6.710678297,dev,cres_v2.1/audio_files_16000/958.wav,sadness
+8,507,m,adult,151,acted,BIO JE KAO I OVAJ OVDJE IMAO JE ISTI ŠINJAL,fear,anger,4.234269887,5.792714173,dev,cres_v2.1/audio_files_16000/507.wav,anger
+9,1041,f,adult,301,real,TRAJEKTNE VEZE S OTOCIMA PREKINUTE SU,neutral,neutral,4.784453182,4.34483457,dev,cres_v2.1/audio_files_16000/1041.wav,neutral
+10,1113,m,adult,322,real,MI SMO JEDNA VRSTA ŽIVOTA,neutral,neutral,5.192336333,3.744300377,dev,cres_v2.1/audio_files_16000/1113.wav,neutral
+11,929,m,adult,262,acted,DER A JEBATE KOLIKO SMO SE MI TOGA NAPIVALI U IMIGRACIJI A HAHA HAA JEBATE,happiness,happiness,8.674350924,7.507413676,dev,cres_v2.1/audio_files_16000/929.wav,happiness
+12,223,f,adult,53,real,JUHA PITA AJME MENI GLAD I NEZNAN ŠTA,anger,anger,4.617075961,6.67816465,dev,cres_v2.1/audio_files_16000/223.wav,anger
+13,1061,m,adult,305,acted,JESI SE LIJEPO PROVELA JUČER,neutral,neutral,5.415373427,4.459488,dev,cres_v2.1/audio_files_16000/1061.wav,neutral
+14,729,f,adult,235,acted,MISLIŠ DA JE,fear,fear,3.579975438,4.84348387,dev,cres_v2.1/audio_files_16000/729.wav,fear
+15,148,m,adult,31,acted,KKK KOJE MALE I O KAKVOJ MALOJ TI SAD PRIČAŠ,anger,anger,3.810479587,6.797500009,dev,cres_v2.1/audio_files_16000/148.wav,anger
+16,1065,m,adult,305,acted,A ŠTO SE TI IMAŠ BRINUTI ZA MOMKA OD DVADESET TRI GODINE,neutral,anger,5.189713194,4.64426808,dev,cres_v2.1/audio_files_16000/1065.wav,anger
+17,920,f,adult,299,acted,JA BAŠ SKUVALA KAVU,happiness,happiness,7.405066839,5.462804829,dev,cres_v2.1/audio_files_16000/920.wav,happiness
+18,11,m,adult,7,acted,MA KO SE BOJI MAMICE PIČKA TI MATERINA SMRDLJIVA AJD DOLAZI AJDE,anger,anger,2.505329102,7.340411209,dev,cres_v2.1/audio_files_16000/11.wav,anger
+19,158,f,adult,32,real,DA OPERE TO ŠTO TI SVIMA NAMA SVAKODNEVNO GOVORIŠ,anger,anger,2.162845033,8.523508524,dev,cres_v2.1/audio_files_16000/158.wav,anger
+20,49,m,adult,21,real,TOLIKO PODLOSTI KAO OD TEBE JA U ŽIVOTU DOŽIVIO NISAM,anger,anger,2.332053505,7.85962989,dev,cres_v2.1/audio_files_16000/49.wav,anger
+21,324,m,adult,83,acted,A ZAŠTO SE NEBI OBLACI TAKO UREDILI DA IZ NJIH KIŠA PADA ILI SNIJEG SIPA SAMO KAD SE ODVRNE PIPA,neutral,happiness,6.775143094,4.67473488,dev,cres_v2.1/audio_files_16000/324.wav,happiness
+22,327,f,adult,85,real,KOD APARTMANA JE TO OKO RECIMO DVIJE TISUĆE DO DVIJE I OSAMSTO KUNA A ŠTO SE TIČE OVIH KLASIČNIH DAKLE NAJPRIHVATLJIVIJIH UDH ß ß SMJEŠTAJNIH KAPACITETA U HOTELU JE TO NEŠTO VIŠA CIJENA PA JE RECIMO OKO ČETRI I POL TISUĆE,neutral,neutral,5.820771493,4.348839275,dev,cres_v2.1/audio_files_16000/327.wav,neutral
+23,645,f,adult,197,acted,NETKO JE KRIVO VIDIO DUŠO MOJA POGRIJEŠILI STE,sadness,sadness,2.260902262,6.139430036,dev,cres_v2.1/audio_files_16000/645.wav,sadness
+24,546,f,adult,171,acted,U ŠUMI PUSOJ ZVIJER GA MOGLA NAPASTI NEKA I MOŽDA RANJEN TAMO POMOĆ UZALUD ČEKA,fear,fear,3.841265904,3.593790992,dev,cres_v2.1/audio_files_16000/546.wav,fear
+25,6,m,adult,4,real,JA SE NE PONAŠAN PREMA TEBI AGRESIVNO ,anger,anger,2.637174988,8.441174802,dev,cres_v2.1/audio_files_16000/6.wav,anger
+26,305,m,adult,77,real,GDJE SE DANAS PRESELILA ŽENSTVENOST ISTRAŽUJE NAŠ IVAN JABUKA U PRIČI S NASLOVOM UDH ŽENSTVENOST POD SVAKU CIJENU ,neutral,neutral,5.074721541,4.105691584,dev,cres_v2.1/audio_files_16000/305.wav,neutral
+27,62,m,adult,21,real,PA TO JE ZA PET PUTA DAJ SMANJI MAST BRZO,anger,anger,3.93710819,6.011077937,dev,cres_v2.1/audio_files_16000/62.wav,anger
+28,764,m,adult,248,acted,AJMO AJMO BRŽE BRŽE AJDE JOJ SAMO DA SU TU SAMO DA SU TU,fear,fear,3.084233389,7.849975505,dev,cres_v2.1/audio_files_16000/764.wav,fear
+29,927,m,adult,262,acted,A KO T BRANI JEBGA ETO TI NA HAHA HAHA,happiness,happiness,6.53402029,5.311233126,dev,cres_v2.1/audio_files_16000/927.wav,happiness
+30,1097,f,adult,317,real,SVAKI DAN SE IDE U BAZEN DVA SATA DNEVNO,neutral,neutral,5.768701242,3.847761028,dev,cres_v2.1/audio_files_16000/1097.wav,neutral
+31,221,f,adult,53,real,NEMOJ ME LAGAT,anger,anger,2.708241667,6.006037837,dev,cres_v2.1/audio_files_16000/221.wav,anger
+32,1057,m,adult,304,real,PRATE VALOVE KATASTROFE,neutral,neutral,5.116432618,4.205145908,dev,cres_v2.1/audio_files_16000/1057.wav,neutral
+33,260,f,adult,60,acted,PIŠTOLJ JE OPALIO MISLIM VAMA JEBOTE TREBA POL SATA DA SVATITE,anger,anger,2.721394747,8.172105412,dev,cres_v2.1/audio_files_16000/260.wav,anger
+34,429,f,adult,134,real,ON MENE VUĆE ZA RUKU JA TU PEREM ZUBE I VIČE UDH IDEŠ U SAVU,happiness,sadness,3.093460629,7.208696372,dev,cres_v2.1/audio_files_16000/429.wav,sadness
+35,267,f,adult,60,acted,JE LI TI TO MENI VIRIŠ KROZ PROZOR KAJ JESI TO REKO,anger,anger,2.704513596,7.882734178,dev,cres_v2.1/audio_files_16000/267.wav,anger
+36,811,m,adult,269,acted,E MOJ SAMOTRESU IDH NAJRAĐE BI TE IZLJUBIO UDH IDH UDH ALI ZBOGOM ŽURIM PO BILJEGE,happiness,happiness,6.536049313,7.500031505,dev,cres_v2.1/audio_files_16000/811.wav,happiness
+37,568,f,child,174,acted,BAKICE JAVI SE GDJE SI JESI LI ŽIVA,fear,fear,2.179483861,8.231809844,dev,cres_v2.1/audio_files_16000/568.wav,fear
+38,890,m,adult,297,acted,E MOJ STIPANE IDH MOGA SI IMAT ZVONIK IDH,sadness,sadness,4.050383017,3.710115678,dev,cres_v2.1/audio_files_16000/890.wav,sadness
+39,341,f,adult,95,acted,A SAD TRKOM NAŠOJ KUĆI JER VUK MOŽE DA SE VRATI TAMO ĆEMO SVE PO REDU ISPRIČATI I DOZNATI,neutral,happiness,7.833160592,5.476347815,dev,cres_v2.1/audio_files_16000/341.wav,happiness
+40,1139,m,adult,338,acted,KAKVI DUHOVI ZLATKO,fear,neutral,3.51189384,5.246475211,dev,cres_v2.1/audio_files_16000/1139.wav,neutral
+41,310,m,adult,77,real,ZNA SE KAKVE PROPORCIJE MORAJU IMATI MORAJU IMATI FRIZURU I BITI NAŠMINKANE LJEPE UKRATKO SAVRŠENE,neutral,neutral,5.109748755,3.976173031,dev,cres_v2.1/audio_files_16000/310.wav,neutral
+42,98,m,adult,28,real,PA ZATO JER TI JE TO SUVIŠNO KUIŠ,anger,anger,4.730759995,6.182423244,dev,cres_v2.1/audio_files_16000/98.wav,anger
+43,235,f,adult,55,real,ONDA MI KAŽI BIT ĆU NA SVINJAMA PA DA JA ZNAM DA ONDA RADIM SVE,anger,anger,3.101156697,7.474240208,dev,cres_v2.1/audio_files_16000/235.wav,anger
+44,149,m,adult,31,acted,ALI STALNO MI TO RADIŠ JEBOTE SVE UVIJEK ZA TEBE SVE SAMO TVOJE SAMO TI TI I TI ,anger,anger,3.176497805,6.633700913,dev,cres_v2.1/audio_files_16000/149.wav,anger
+45,1016,f,adult,293,acted,MOŽDA BI TREBALI SPUSTITI NAŠE PUŠKE ß MOŽDA GA ONE PLAŠE,fear,fear,3.501301833,6.890786826,dev,cres_v2.1/audio_files_16000/1016.wav,fear
+46,654,f,adult,199,real,NIKAD U ŽIVOTU NISAM TOLIKO SMRC PRIČALA O GLUPOSTIMA TOLIKO SE PROPUCAVALA RADI OVOG RADI ONOG DA SVE SLUŠAM OD JUTRA DO MRAKA,sadness,sadness,1.197585327,7.799962157,dev,cres_v2.1/audio_files_16000/654.wav,sadness
+47,433,f,adult,135,real,ČETVRTI PUT U RINGU JE SVIZAC,happiness,happiness,6.309619993,4.402503098,dev,cres_v2.1/audio_files_16000/433.wav,happiness
+48,655,f,adult,199,real,IMALA SAM SEDAM GODINA TOLIKU PROBLEMATIČNU I TEŠKU VEZU U ŽIVOTU NISAM PUSTILA SUZU NI RIJEŠVALA S DRUGIMA PROBLEME,sadness,sadness,1.43937453,8.286038835,dev,cres_v2.1/audio_files_16000/655.wav,sadness
+49,204,f,adult,50,real,NAPISAO PAPIRIĆ KOJI JA DRŽIM OVDJE KOD SEBE,anger,anger,3.515484678,6.980044635,dev,cres_v2.1/audio_files_16000/204.wav,anger
+50,1021,f,adult,294,acted,ISUSE BOŽE KAK STE ME PREPALI,fear,fear,4.038658138,5.880565649,dev,cres_v2.1/audio_files_16000/1021.wav,fear
+51,51,m,adult,21,real,KAKO JE ONA LAGALA HANA DA TI TO ZNAŠ,anger,anger,2.919137602,7.69755651,dev,cres_v2.1/audio_files_16000/51.wav,anger
+52,690,m,adult,207,real,ONDA SAM IH PONOVO PITAO JESE ŽELITE UBITI A ONI SU REKLI DA SE NE ŽELIMO UBITI,neutral,neutral,5.207120839,3.828347708,dev,cres_v2.1/audio_files_16000/690.wav,neutral
+53,379,m,adult,116,real,TI SI ROĐENA GAZDARICA IDH,happiness,happiness,7.105913537,4.473158443,dev,cres_v2.1/audio_files_16000/379.wav,happiness
+54,477,f,adult,143,acted,DAJ NEMOJ ME JEBAT PRIČAJ,happiness,happiness,6.202252755,6.713122354,dev,cres_v2.1/audio_files_16000/477.wav,happiness
+55,794,m,adult,262,acted,A SAD DER UDRI NEBO TI BOŽJE,happiness,anger,3.161594834,8.796888728,dev,cres_v2.1/audio_files_16000/794.wav,anger
+56,120,m,adult,31,acted,ZAVRŠIT ĆEŠ U ŽUTU KUĆU JEBA MI BOG MATER KAD MORAN TAKO REĆ,anger,anger,1.907969865,8.390447801,dev,cres_v2.1/audio_files_16000/120.wav,anger
+57,297,m,adult,70,real,MOGU SE ODLUČITI ZA KASNIJI POČETAK U RUJNU MJESECU ILI MOGU PRODULJITI ZIMSKI RASPUST ß ZA JEDAN TJEDAN U MJESECU SIJEČNJU,neutral,neutral,5.289263784,4.215970446,dev,cres_v2.1/audio_files_16000/297.wav,neutral
+58,759,m,adult,248,acted,OVO NE VALJA OVO NIŠTA NE VALJA,fear,anger,2.677055281,7.215723077,dev,cres_v2.1/audio_files_16000/759.wav,anger
+59,255,f,adult,60,acted,PA KAKO ĆU SE ISPOVIDIT AKO MI VI NE DATE DA GOVORIN PA ČOVIČE BOŽJI PA NEMOGU SE JA NA MOTE ISPOVIDAT,anger,anger,3.54808032,7.828024573,dev,cres_v2.1/audio_files_16000/255.wav,anger
+60,8,m,adult,5,real,MA IDI U PIČKU MATERINU JEBEM TEBE I TVOJE HRKANJE SVINJO ,anger,anger,2.618079255,7.113832844,dev,cres_v2.1/audio_files_16000/8.wav,anger
+61,484,f,adult,145,acted,OOO HO HO HO TKO JE TO HIHI KAKVI TO GRICKIĆI KAKVI TO PTIČIĆI GRICKAJU MOJU SLAĐANU KUĆICU HA,happiness,happiness,6.777802762,6.906494087,dev,cres_v2.1/audio_files_16000/484.wav,happiness
+62,614,f,adult,186,real,SAMO TE MOLIMO SVI DA BUDEŠ JAKA KAO I DO SADA UDH JER TI SI BORAC IDH ZNAŠ SE BORITII UDH I U SVAKOJ BORBI ZNAMO DA ĆEŠ POBIJEDITI,sadness,sadness,2.005304448,7.952939967,dev,cres_v2.1/audio_files_16000/614.wav,sadness
+63,432,f,adult,135,real,KAK TI VISIŠ HAHA,happiness,happiness,5.788654146,5.490526303,dev,cres_v2.1/audio_files_16000/432.wav,happiness
+64,490,f,adult,145,acted,AH A SUNCE MOJE,happiness,sadness,4.182816451,5.807158994,dev,cres_v2.1/audio_files_16000/490.wav,sadness
+65,110,m,adult,29,acted,NAŠI NEZNAJU DA IGRAJU GLAVOM A GLAVOM SE IGRA,anger,anger,4.555427736,6.830522527,dev,cres_v2.1/audio_files_16000/110.wav,anger
+66,176,f,adult,40,acted,MA DAJ ODJEBI TEK SAM SE PROBUDILA JOŠ NISAM NI DORUČKOVALA ,anger,anger,3.321308054,6.451593796,dev,cres_v2.1/audio_files_16000/176.wav,anger
+67,672,f,adult,204,acted,NE PITAJ NIJE TO NIŠTA ŠTO SE MENI INAČE NE DOGAĐA JEDEM TUĐA GOVNA JER SAM GLUPAČA UDH OSTANEM SA MAMOM OSTANEM U BRAKU I EVO SAD NE VIDIM ŠTO MI RADI NEMAM HRABROSTI GLUPAČA,sadness,sadness,2.476133432,4.604167772,dev,cres_v2.1/audio_files_16000/672.wav,sadness
+68,775,m,adult,248,acted,EJ EVO ZNAŠ ONU KLINKU KOJU TRAŽE SALE JU JE PUSTIO HTJELI SMO JU VRATIT ALI VODENUŠ IMA TAJNI PLAN A SAD NAS RANKO LOVI I HOĆE NAS UBIT,fear,fear,5.031325024,8.053641816,dev,cres_v2.1/audio_files_16000/775.wav,fear
+69,593,m,adult,185,acted,CMIZDR CMIZDR OPROSTI OPROSTI NISAM ZNAO,sadness,sadness,1.350911504,7.153958156,dev,cres_v2.1/audio_files_16000/593.wav,sadness
+70,635,f,adult,193,acted,FALA VAM ČASNA JA SE NADAM DA NEĆE,sadness,fear,4.779258728,3.199890713,dev,cres_v2.1/audio_files_16000/635.wav,fear
+71,63,m,adult,21,real,PA DOBRO TKO ĆE MI ODBIT MAST,anger,anger,3.699096679,6.880281216,dev,cres_v2.1/audio_files_16000/63.wav,anger
+72,133,m,adult,31,acted,KOGA JEBE,anger,anger,2.69723687,7.803327851,dev,cres_v2.1/audio_files_16000/133.wav,anger
+73,959,f,adult,280,real,JESAM MAJKA NEZNAM TRI MESECA ZA NJEGA U PODRUMU UDH SAM BILA ß NEZNAM CMIZDR,sadness,sadness,1.297187469,8.100511967,dev,cres_v2.1/audio_files_16000/959.wav,sadness
+74,835,m,adult,280,acted,LAKU NOĆ,happiness,happiness,7.415690971,5.884729544,dev,cres_v2.1/audio_files_16000/835.wav,happiness
+75,372,m,adult,113,acted,NAŠ KAJ AK TE NETKO PIPNE NE TI  SAM MENI RECI JA BUM GA ODMAH STRELIL NAŠ,happiness,anger,4.015931429,5.137350569,dev,cres_v2.1/audio_files_16000/372.wav,anger
+76,560,f,child,172,acted,NEĆETE VALJDA NEĆETE NESMIJE NITKO UČINITI TO,fear,fear,2.404955621,7.573053383,dev,cres_v2.1/audio_files_16000/560.wav,fear
+77,601,f,adult,186,real,MAMA I TVOJE SESTRE SU PONOSNE NA TEBE PONOSNE SU ŠTO SI NJEZINA KĆER A NAŠA SESTRA,sadness,sadness,3.842194948,7.588763066,dev,cres_v2.1/audio_files_16000/601.wav,sadness
+78,979,m,adult,231,acted,NEMOJ STANI,fear,fear,1.643767434,8.67191067,dev,cres_v2.1/audio_files_16000/979.wav,fear
+79,686,m,adult,209,real,OKO ČETIRISTO DJECE SU PO DOMOVIMA KATOLIČKIM,neutral,neutral,4.809749201,4.510197559,dev,cres_v2.1/audio_files_16000/686.wav,neutral
+80,316,m,adult,79,real,KAD KAŽEM IDEALIZIRANO UDH NARAVNO MORAMO VODIT RAČUNA DA TO ŠTO MI DANAS VIDIMO ŠTA JE MADONA I I NJENA RECIMO ŽENSTVENOST ILI NJENA LJEPOTA ILI NJENA ŽENSKOST NEMA VEZE S ONIM ŠTO JE BILO,neutral,neutral,5.829870709,4.67468793,dev,cres_v2.1/audio_files_16000/316.wav,neutral
+81,1047,f,adult,303,real,AL ŠTA SE TIČE ŠMINKE I TOGA VRLO MALO,neutral,neutral,6.291942907,3.730016295,dev,cres_v2.1/audio_files_16000/1047.wav,neutral
+82,799,f,adult,264,acted,AJ DOJDITE DOJDITE UDH AJD,happiness,fear,4.919102476,7.82347068,dev,cres_v2.1/audio_files_16000/799.wav,fear
+83,755,m,adult,248,acted,LJILJO MOLIM TE SHVATI ,fear,fear,3.804192047,7.019284802,dev,cres_v2.1/audio_files_16000/755.wav,fear
+84,669,f,child,203,acted,DA SU NAM BAREM ŽIVI DJEDICA ILI BAKA OVAKO STRAH ME ŠTO LI ĆE S NAMA BITI AKO,sadness,sadness,2.615784846,6.086935707,dev,cres_v2.1/audio_files_16000/669.wav,sadness
+85,790,m,adult,258,acted,HEHE UDH A DI SE IDE A,happiness,happiness,6.705855773,5.167700283,dev,cres_v2.1/audio_files_16000/790.wav,happiness
+86,496,f,child,146,acted,O DA VIDIŠ KAKO KRASNA MALA KUĆA A OKO NJE OGRADICA SVA O PRUĆA A NAD KROVOM TRI STARA BORA HLAD JOJ ČINE ODOZGORA,happiness,happiness,8.13536571,5.794930801,dev,cres_v2.1/audio_files_16000/496.wav,happiness
+87,442,f,adult,137,real,KAKO ĆEMO GA NAZVAT HAHA,happiness,happiness,7.477507865,6.053063992,dev,cres_v2.1/audio_files_16000/442.wav,happiness
+88,123,m,adult,31,acted,SE KURVAT ĐAVA TE ODNIJA DA TI OD SVOJE PROTEZAT ZVONIK,anger,anger,2.411607663,7.806044612,dev,cres_v2.1/audio_files_16000/123.wav,anger
+89,679,m,adult,207,real,POSTOJI JEDAN JEDNO SKLADIŠTE VELIKO I TU SE NALAZI I ZDRAVLJE I SREĆA I FINANCIJSKI BLAGOSLOV ZA NAS I SVE ŠTO NAM TREBA U ŽIVOTU,neutral,neutral,5.882331769,2.703355914,dev,cres_v2.1/audio_files_16000/679.wav,neutral
+90,151,m,adult,31,acted,ZNAŠ ŠTO AJDE UZMI UZMI UZMI SVE NOSI I IDI JEBO TE KAPITALIZAM DA TE JEBO,anger,anger,1.60874076,8.087319519,dev,cres_v2.1/audio_files_16000/151.wav,anger
+91,446,f,adult,137,real,A DOĐI VAMO PIČKA TI MATERINA,happiness,anger,2.98063614,6.686370296,dev,cres_v2.1/audio_files_16000/446.wav,anger
+92,1078,m,adult,313,real,VELIKE GRAĐEVINE POPOPUT PIRAMIDA U GIZI,neutral,neutral,5.966910338,3.416667148,dev,cres_v2.1/audio_files_16000/1078.wav,neutral
+93,828,m,adult,276,acted,KORBAČEV ZA PSE HE HEHE HEHE,happiness,happiness,6.007066038,5.999051117,dev,cres_v2.1/audio_files_16000/828.wav,happiness
+94,218,f,adult,51,real,MA JOJ LJUBAVI EJ,anger,happiness,5.92505067,5.254029385,dev,cres_v2.1/audio_files_16000/218.wav,happiness
+95,401,m,adult,124,acted,MA DAJ HAHA HAHA HAHA,happiness,happiness,6.75786283,6.569570642,dev,cres_v2.1/audio_files_16000/401.wav,happiness
+96,48,m,adult,21,real,SAD JA NE ŽELIM S TOBOM BITI UDH,anger,anger,2.783907396,6.877084468,dev,cres_v2.1/audio_files_16000/48.wav,anger
+97,736,m,adult,231,acted,DER NEMOJ MAJKO MILA NEMJ MOLIM TE NEMOJ JARANE NEMOJ KO BOGA TE MOLIM,fear,fear,1.41842114,8.488435021,dev,cres_v2.1/audio_files_16000/736.wav,fear
+98,89,m,adult,26,real,AL ZAMISLI KAKO JE MENI STARA MOJA IDH AJD ZAMISLI KAKO ME,anger,anger,3.700069628,7.267644149,dev,cres_v2.1/audio_files_16000/89.wav,anger
+99,667,f,adult,202,acted,ALI JA SE NADAM DA ĆE IPAK PRAVDA POBIJEDITI DA SE NEBI VIŠE TA ZLA DOGAĐALA DA NEBI BILO VIŠE RATOVA,sadness,sadness,2.564439071,6.565932328,dev,cres_v2.1/audio_files_16000/667.wav,sadness
+100,7,m,adult,4,real,OSTAVI ME NA MIRU,anger,anger,2.125791222,7.950039588,dev,cres_v2.1/audio_files_16000/7.wav,anger
+101,892,f,adult,299,acted,O ISUSE BOŽE IDH DON STIPANE DON ST,sadness,sadness,3.276400584,4.781218862,dev,cres_v2.1/audio_files_16000/892.wav,sadness
+102,225,f,adult,54,real,STAJALA SI KRAJ ĐEZVE NE SERI KVAKE STAJALA SI,anger,anger,1.497228749,8.316747186,dev,cres_v2.1/audio_files_16000/225.wav,anger
+103,1100,m,adult,318,real,NOVAKOVIMA UGLAVNOM DOLAZE OBOLJELI KOJI SU VEĆ ISPROBALI SVE METODE,neutral,neutral,5.087454989,3.535276514,dev,cres_v2.1/audio_files_16000/1100.wav,neutral
+104,497,f,child,146,acted,TASICA ME MOJA ČEKA VEĆ JE VIDIM IZ DALEKA DOVIĐENJA DOVIĐENJA,happiness,happiness,8.396335247,5.457749172,dev,cres_v2.1/audio_files_16000/497.wav,happiness
+105,213,f,adult,50,real,ß DO DO IVANE DA VIDIM ONO ŠTA JE ZA JESTI I KAD JE RUČAK NE IVANA JE REKLA,anger,neutral,5.731180201,5.834082412,dev,cres_v2.1/audio_files_16000/213.wav,neutral
+106,415,f,adult,130,acted,E VRAG SI TI DITE MOJE VRAG NE MOREŠ BIT NEG CRNE KOSE HEHEHE,happiness,happiness,6.897764091,3.62063366,dev,cres_v2.1/audio_files_16000/415.wav,happiness
+107,909,f,adult,303,acted,TKO ZNA KAK JE TO,sadness,sadness,3.471732266,4.520664835,dev,cres_v2.1/audio_files_16000/909.wav,sadness
+108,1027,f,adult,295,real,PA SKIJANJE JE POČELO TAKO ŠTO SU ME ONO NISU ZNALI ŠTO DA RADE S JEDNOM MALOM HIPERAKTIVNOM KLINKOM III,happiness,happiness,6.774104243,4.491892849,dev,cres_v2.1/audio_files_16000/1027.wav,happiness
+109,856,m,adult,270,acted,DOK ME PAMĆENJE U SMUŠENOJ MI GLAVI STOLUJE MOJ BIJEDNI DUŠE,happiness,neutral,5.471202841,4.288574238,dev,cres_v2.1/audio_files_16000/856.wav,neutral
+110,814,m,adult,271,acted,GLEDAJTE GA GLEDAJTE GA MILOGLEDI INTELEKTUALAC INTELEKTUALAC ŠVEJK ŠVEJK ŠVEJK HAHA HAHA KOD INVALIDA IDE MOLIM VAS BARDE RECITE MI ZASTAJK KOLIKO JE TEŽAK STRAH,happiness,happiness,7.095745136,7.61784072,dev,cres_v2.1/audio_files_16000/814.wav,happiness
+111,42,m,adult,20,acted,KAJ JE TO FORA NEKA TI KAO PROTESTIRAŠ HA SAMO MI NEMOJ ZVAT ONU KUĆU ZA PIČKE I PEDERE JER ĆU IM SVIMA JEBAT MATER JEL TI JASNO,anger,anger,2.390079749,8.047887813,dev,cres_v2.1/audio_files_16000/42.wav,anger
+112,371,m,adult,113,acted,OOO PA KAJ JE KAM SI TI KRENUL HA KAJ ČUL SI DA TE ZOVEM SI DOŠEL BRAVO MAČAK PRAVI SI,happiness,happiness,7.617873751,4.393438497,dev,cres_v2.1/audio_files_16000/371.wav,happiness
+113,826,m,adult,275,acted,DER EVO GA BRAĆO OPET S NAMA,happiness,happiness,7.573313485,8.875716693,dev,cres_v2.1/audio_files_16000/826.wav,happiness
+114,566,f,child,174,acted,OOO STRAŠNO STRAŠNO PA TI SI ONAJ MI SMO SE SRELI POZNAM TI GLAS I REKAO SI DA SI PAS,fear,fear,2.924286299,8.566330782,dev,cres_v2.1/audio_files_16000/566.wav,fear
+115,536,f,adult,169,real,AAA,fear,fear,1.896797244,8.817744636,dev,cres_v2.1/audio_files_16000/536.wav,fear
+116,398,m,child,123,acted,EVO EVO SAMO ČAS,happiness,happiness,5.89087973,7.911273075,dev,cres_v2.1/audio_files_16000/398.wav,happiness
+117,342,f,adult,95,real,SAD NAKON TOLIKO GODINA KAD SE VRATIM I KAD MI SE SVE TE SLIKE VRAĆAJU ONDA ZAPRAVO VIDIM ŠTA JE RAT I ŠTA JE UČINIO OVOJ DRŽAVI,neutral,sadness,2.163832907,5.554150301,dev,cres_v2.1/audio_files_16000/342.wav,sadness
+118,511,m,adult,154,acted,NEMOJ PETRE,fear,fear,3.767727517,5.67578935,dev,cres_v2.1/audio_files_16000/511.wav,fear
+119,556,f,child,172,acted,OČE I MAJČICE GDJE STE GDJE STE POMOZITE,fear,fear,1.487077069,8.520348845,dev,cres_v2.1/audio_files_16000/556.wav,fear
+120,611,f,adult,186,real,VAZDA SI GOVORILA DA SAMO IDEŠ DO KRAJA PA TAKO CMIZDR ŽELIM DA I SAD BUDE,sadness,sadness,1.77813652,8.065541785,dev,cres_v2.1/audio_files_16000/611.wav,sadness
+121,756,m,adult,249,acted,DIJEEEETE,fear,fear,1.394611514,8.50560619,dev,cres_v2.1/audio_files_16000/756.wav,fear
+122,32,m,adult,18,acted,DA I NEMOJTE ME MOLIM VAS VIŠE ZAJEBAVAT S TIM STVARIMA UMJESTO DA SMO SRETNI ŠTO GA IMAMO ZA GOSTA VI TU STVARATE NERVOZU,anger,anger,2.797266715,5.876219056,dev,cres_v2.1/audio_files_16000/32.wav,anger
+123,88,m,adult,26,real,SAD ZAMISLI KAKO JE MENI JA NISAN REKO NIŠTA AL DOŽIVIN OVO,anger,anger,2.859201035,7.03196737,dev,cres_v2.1/audio_files_16000/88.wav,anger
+124,112,m,adult,29,acted,AJDE,anger,anger,3.839660614,7.062542448,dev,cres_v2.1/audio_files_16000/112.wav,anger
+125,717,m,adult,227,acted,JA SAM SELJAČKO DIJETE I STOPUT SAM VIDIO IZBEZUMLJENU KVOČKU IZBEZUMI SE JADNICA IOD STRAHA ALI NIKAD NE NAPUŠTA SVOJE PILIĆE NEGO IH SAKRIJE POD KRILO,fear,fear,4.539280141,6.514836181,dev,cres_v2.1/audio_files_16000/717.wav,fear
+126,207,f,adult,50,real,A ZNAŠ ZAŠTO UDH ZATO ŠTO SAM JA BILA DVA TJEDNA JEBENIH U KUHINJI MENE ONI KOJI SU BILI GAZDE S NJIMA SAM U KUHINJI JA PRALA SUĐE I ŠTA DA NE PRIČAM SA ŽENOM MA JA NISAM NIŠTA NAPRAVILA,anger,anger,3.880662324,5.330849984,dev,cres_v2.1/audio_files_16000/207.wav,anger
+127,194,f,adult,48,real,DAL SAM PITALA DAL JE SPORTAŠ ILI NIJE PA NISAM GLUPA ČOVJEČE,anger,anger,3.709596148,5.902193212,dev,cres_v2.1/audio_files_16000/194.wav,anger
+128,211,f,adult,50,real,AL MI SE NEDA MI SE BORIT BAŠ NEMA ŠANSE,anger,anger,4.116207755,4.995884971,dev,cres_v2.1/audio_files_16000/211.wav,anger
+129,1094,m,adult,315,real,OVE RIBICE NABAVILI SU PRIJE OTPRILIKE GODINU DANA,neutral,neutral,6.219744544,4.28542727,dev,cres_v2.1/audio_files_16000/1094.wav,neutral
+130,632,f,adult,191,acted,DOBRO ZNALA SAM I ŠTA SAD ISTO SAM TAKO MOGLA ŽIVIT I SA CIGANIMA,sadness,sadness,3.198287434,5.140701899,dev,cres_v2.1/audio_files_16000/632.wav,sadness
+131,114,m,adult,29,acted,TI ŠAPO CRNA IZDALA SI ME,anger,anger,1.722989433,8.400407786,dev,cres_v2.1/audio_files_16000/114.wav,anger
+132,620,f,adult,186,real,NEGO NA ANTU KOJI JE SAD UZ TEBE IDH,sadness,sadness,2.515215455,7.606550454,dev,cres_v2.1/audio_files_16000/620.wav,sadness
+133,435,f,adult,135,real,ß DRAGI NENO SAD SI ČIST,happiness,neutral,5.431148847,4.297918717,dev,cres_v2.1/audio_files_16000/435.wav,neutral
+134,1083,m,adult,312,real,KAŽE SE DA SLIKA VRIJEDI KAO TISUĆU RIJEČI U PRILOGU KOJI NAS ČEKA,neutral,neutral,5.896633725,3.290396702,dev,cres_v2.1/audio_files_16000/1083.wav,neutral
+135,626,f,adult,188,acted,MAMA TO NIJE ISTINA CMIZDR TO NIJE ZATO ,sadness,sadness,1.908189678,6.901604767,dev,cres_v2.1/audio_files_16000/626.wav,sadness
+136,30,m,adult,17,acted,E NEBI BILO DOBRO PIČKA MU MATERINA TODORE NE BI BILO DOBRO SLUŠAŠ LI ŠTA TI JA GOVORIM,anger,anger,2.962176349,6.778646827,dev,cres_v2.1/audio_files_16000/30.wav,anger
+137,1011,m,adult,291,acted,BOJIM SE SAMO DA IH KUZMA SVE NE POKOKA AKO MU KRENE ß A KO ĆE NAM ONDA NAPRAVITI ĐAMBO PLAKATE,fear,fear,2.816016937,6.971753305,dev,cres_v2.1/audio_files_16000/1011.wav,fear
+138,662,f,adult,200,real,JA ZNAM KAKVA SAM OSOBA JA NE PLAČEM OVDJE ZATO ŠTO JE MENE PRIKAZANO OVAKO IL ONAKO PRIKAZANO ME ONAKO KAKVA JESAM,sadness,sadness,2.86717142,6.690152736,dev,cres_v2.1/audio_files_16000/662.wav,sadness
+139,12,m,adult,7,acted,A U PIZDU MATERINU,anger,anger,2.709610845,7.070452761,dev,cres_v2.1/audio_files_16000/12.wav,anger
+140,1102,m,adult,319,acted,A TI ZNAŠ DA SMO MI IMALI SVOJU,neutral,neutral,5.099350808,5.538053409,dev,cres_v2.1/audio_files_16000/1102.wav,neutral
+141,66,m,adult,23,real,MA IDI U KURAC,anger,anger,2.370681141,8.10981988,dev,cres_v2.1/audio_files_16000/66.wav,anger
+142,966,m,adult,282,real,JOŠ MI SAD ONAKO GLAS ß GLAS NJEGOV ĆE MI OSTATI U SJEĆANJU,sadness,sadness,2.635435338,6.188074956,dev,cres_v2.1/audio_files_16000/966.wav,sadness
+143,347,f,child,96,acted,ZNAM ŠTO ĆU JA ĆU DO BREŽULJKA POĆI I GLASNO DOZIVATI,neutral,happiness,6.911609925,5.998015905,dev,cres_v2.1/audio_files_16000/347.wav,happiness
+144,118,m,child,30,acted,ŠTO GOD HOĆEŠ RADI ALI VIŠE NE GNJAVI,anger,anger,3.198834197,8.247637268,dev,cres_v2.1/audio_files_16000/118.wav,anger
+145,884,f,adult,296,acted,UDH ON PLAČE ZASTAJK PLAČE UDH,sadness,sadness,3.998982436,4.90214875,dev,cres_v2.1/audio_files_16000/884.wav,sadness
+146,460,f,adult,140,real,ŠTA ĆE UĆ ĆE U KUĆU ČUJ ŠTA ĆEŠ,happiness,fear,4.846882383,6.965676517,dev,cres_v2.1/audio_files_16000/460.wav,fear
+147,803,m,adult,263,acted,DOBRO DOŠLI U KUĆU MOMCI ŽIVIO MOCA JOCA RASKOMOTITE SE DE SEDI ZASTAJK AJDE,happiness,happiness,8.14596555,6.360383938,dev,cres_v2.1/audio_files_16000/803.wav,happiness
+148,934,m,adult,265,real,TAJ RADNIČKI DOM ß SVODOVE ß NEZNAM,sadness,sadness,3.643647354,3.508623452,dev,cres_v2.1/audio_files_16000/934.wav,sadness
+149,1108,m,adult,322,real,JA SAM ZEMLJA VI STE VELIKA KOLA,neutral,neutral,5.284829423,5.317220159,dev,cres_v2.1/audio_files_16000/1108.wav,neutral
+150,876,m,adult,263,acted,HO LEPI MOJ SOKOLE,sadness,sadness,2.587412826,6.720023922,dev,cres_v2.1/audio_files_16000/876.wav,sadness
+151,307,m,adult,77,real,NO I DALJE LJEPO TIJELO I ŽENSTVENOST OSTAJU ŽENI NA ODGOVORNOST,neutral,neutral,6.070639883,2.578121554,dev,cres_v2.1/audio_files_16000/307.wav,neutral
+152,534,f,adult,168,real,ALEEEN,fear,fear,4.797013884,7.374704042,dev,cres_v2.1/audio_files_16000/534.wav,fear
+153,1060,m,adult,304,real,PRIDRUŽITE NAM SE U PROUČAVANJU PRIRODNE SILE KOJA IDE BRZINOM JEDANAEST TISUĆA DVJESTO KILOMETARA NA SAT,neutral,neutral,6.473911647,4.154465767,dev,cres_v2.1/audio_files_16000/1060.wav,neutral
+154,210,f,adult,50,real,ŠTA JE KOJI KURAC,anger,anger,2.970151133,7.288823758,dev,cres_v2.1/audio_files_16000/210.wav,anger
+155,163,f,adult,35,real,MAKNI SE I TI ONDA,anger,anger,3.173740177,7.805056063,dev,cres_v2.1/audio_files_16000/163.wav,anger
+156,338,f,adult,93,real,DRUGIM RIJEČIMA KADA NAM SE OMOGUĆILO DA UĐEMO U DUŽNIČKI ODNOS BURIĆ TVRDI AKO NEŠTO ZNAMO ONDA JE TO TROŠITI,neutral,neutral,4.6913052,5.330991587,dev,cres_v2.1/audio_files_16000/338.wav,neutral
+157,861,f,adult,252,acted,CMIZDR SMRC KURVA PROKLETA SMRC DER LJUUUDI POMOZITE KURVA MI JE UBILA SINA,sadness,sadness,1.127104785,8.906061772,dev,cres_v2.1/audio_files_16000/861.wav,sadness
+158,1121,m,adult,325,real,ONI SU TI KOJI SKUPLJAJU IZ KOŠNICA MED,neutral,neutral,5.629108011,3.174856841,dev,cres_v2.1/audio_files_16000/1121.wav,neutral
+159,486,f,adult,145,acted,HEHE HEHE DOĐITE U KUĆICU UĐITE NIGDJE VAM LJEPŠE HEHE HEHE BITI NEĆE,happiness,happiness,7.46143396,5.768647792,dev,cres_v2.1/audio_files_16000/486.wav,happiness
+160,234,f,adult,55,real,PA NISAM IŠLA RANIJE IŠLA SAM U ISTO VRIJEME NEGO SVE SAMA I POPODNE I UJUTRO TI ŠTO SI UDH UJUTRO ČISTIO ŠTALU ON NIJE UŠO,anger,anger,2.678157212,7.030537253,dev,cres_v2.1/audio_files_16000/234.wav,anger
+161,804,m,adult,265,acted,ČERI UDAJEŠ SINA SI VRATIO DER ŠA JOŠ OĆEŠ,happiness,anger,2.194192366,7.963152323,dev,cres_v2.1/audio_files_16000/804.wav,anger
+162,1134,f,adult,331,real,BOLJE PLATITI VIŠE SMATRAJU MNOGI ,neutral,neutral,4.867386844,4.328871741,dev,cres_v2.1/audio_files_16000/1134.wav,neutral
+163,930,m,adult,262,acted,PA DI SI VEČERAS ZASTAJK SVE VAS VEČERAS POZIVAM KOD MENE NA VEČERU MOŽE HAHA,happiness,happiness,8.007466555,7.870808484,dev,cres_v2.1/audio_files_16000/930.wav,happiness
+164,15,m,adult,9,acted,ŠTA JE ROKO ŠTA OPET OĆEŠ NA IZDAJU DA ME NAGOVARAŠ,anger,anger,4.407280748,5.536078411,dev,cres_v2.1/audio_files_16000/15.wav,anger
+165,186,f,adult,43,acted,A SLUŠAJ TI ROKO NEKA JE JA SAMO JOŠ JEDNOM VIDIM NA OVOJ POZORNICI IMAT ĆEŠ POSLA S MENON,anger,anger,2.668425413,7.695186352,dev,cres_v2.1/audio_files_16000/186.wav,anger
+166,1018,f,adult,294,acted,MISLITE DA ĆEMO MORAT OVAK CIJELO VRIJEME,fear,fear,3.561041182,6.146721044,dev,cres_v2.1/audio_files_16000/1018.wav,fear
+167,1004,f,adult,289,acted,NEZNAM IDH UDH MOŽDA BI SE TREBALI VRATIT DO ONIH VRATA ß IZAĆI NEKAKO VAN,fear,fear,2.289628926,7.881701356,dev,cres_v2.1/audio_files_16000/1004.wav,fear
+168,492,f,adult,145,acted,PA NEMA ŠANSE JA TO NEBIH HTJELA NI ČUT,happiness,happiness,4.807150287,4.789993786,dev,cres_v2.1/audio_files_16000/492.wav,happiness
+169,617,f,adult,186,real,TVOJ ANTE IDH KAKO TI KAŽEŠ SKROZ TE ZABORAVIO VIŠE NE MISLI NA TEBE SMRC,sadness,sadness,2.416656737,6.802771754,dev,cres_v2.1/audio_files_16000/617.wav,sadness
+170,108,m,adult,29,acted,E JESI BLESAV CIGO,anger,anger,5.256437068,6.502706525,dev,cres_v2.1/audio_files_16000/108.wav,anger
+171,46,m,adult,21,real,DVINA JA SE UOPĆE NE SLAŽEM S TOBOM,anger,anger,3.280750396,7.531597293,dev,cres_v2.1/audio_files_16000/46.wav,anger
+172,428,f,adult,134,real,JE SE I JA PITAM ALENE TE JAKO BUBA KAŽE ON A A HAHA,happiness,happiness,7.257578571,4.546134067,dev,cres_v2.1/audio_files_16000/428.wav,happiness
+173,817,m,adult,271,acted,ZAVRŠILI SMO NAŠ DANAŠNJI LIČNI ULIČNI PROGRAM ZASTAJK SVOJIM DRAGIM I UGODNIM SLUŠAOCIMA ŽELIM LAKU I UGODNU NOĆ ,happiness,happiness,6.712526147,7.768850218,dev,cres_v2.1/audio_files_16000/817.wav,happiness
+174,761,m,adult,248,acted,HM KOJE DIJETE,fear,fear,4.874588877,6.422549845,dev,cres_v2.1/audio_files_16000/761.wav,fear
+175,512,m,adult,155,acted,ß REUF NE NIJE NITKO BIO NNN NE NIJE,fear,fear,3.484371268,6.475201524,dev,cres_v2.1/audio_files_16000/512.wav,fear
+176,918,f,adult,298,acted,E A NISTE ČULI PROGOVORILA JA,happiness,happiness,6.44598282,4.699473618,dev,cres_v2.1/audio_files_16000/918.wav,happiness
+177,377,m,adult,115,real,EVO GA BLATOBLA,happiness,happiness,7.312582304,5.597096099,dev,cres_v2.1/audio_files_16000/377.wav,happiness
+178,1131,f,child,328,real,PRIJATELJICE SU IŠLE NEKE NA PLES,neutral,sadness,4.764878361,2.902923584,dev,cres_v2.1/audio_files_16000/1131.wav,sadness
+179,152,m,adult,31,acted,NE NE I TREBAŠ MI NIŠTA OSTAVLJAT MENI NE TREBAJU TVOJI NOVCI JESI ME ČUO,anger,anger,2.966193691,7.016959414,dev,cres_v2.1/audio_files_16000/152.wav,anger
+180,648,f,adult,198,real,KAK SE OSJEĆAM UNUTRA CMIZDR,sadness,sadness,1.813942,6.582889226,dev,cres_v2.1/audio_files_16000/648.wav,sadness
+181,1054,m,adult,304,real,LJUDI IZ KALIFORNIJE NAZIVAJU GA VELIKI POTRES,neutral,neutral,5.985137148,3.927300026,dev,cres_v2.1/audio_files_16000/1054.wav,neutral
+182,1085,m,adult,314,real,ONDA SE NORMALNO NAMEĆE POMISAO DA SU EGIPĆANI MOŽDA JOŠ NEKI DRUGI NARODI POSJEDOVALI JEDNU TEHNOLOGIJU,neutral,neutral,5.310237595,3.679218879,dev,cres_v2.1/audio_files_16000/1085.wav,neutral
+183,1039,f,adult,300,acted,TREBAM TE DA POSLIJE ŠKOLE ODEŠ U DUĆAN I DA SE TAMO MALO MOTAŠ I AKO SKUŽIŠ DA TA BLAGAJNICA RADI NEŠTO SUMNJIVO ODMA DOĐEŠ DOMA I TO MI SVE KAŽEŠ,neutral,neutral,4.110652881,5.045037346,dev,cres_v2.1/audio_files_16000/1039.wav,neutral
+184,1092,m,adult,313,real,PRECESIJA JE POJAVA POMICANJA ZEMLJINE OSI OKO POLOVA,neutral,neutral,4.982144744,4.288040066,dev,cres_v2.1/audio_files_16000/1092.wav,neutral
+185,661,f,adult,200,real,MENE BOLI OVA DRUGA STVAR RAZUMIJEŠ,sadness,sadness,2.716337112,6.442641809,dev,cres_v2.1/audio_files_16000/661.wav,sadness
+186,201,f,adult,49,real,TI FINO TO JE ISPALO UŽASNO I TO SMO SVI SKUŽILI VANI DA JE ONA ZAKUHALA SVI,anger,anger,3.567098445,5.89627999,dev,cres_v2.1/audio_files_16000/201.wav,anger
+187,579,m,adult,182,acted,NE ZAMJERAM OČE UŽASNE SU PRILIKE STRAŠNO AKO NE UHVATIMO VAŠEG BRATA REVAČA AKO GA ŽIVOG ILI MRTVOG NE IZRUČIMO BOLJE ŽIVOG NEGO MRTVOG BOSANSKI BEGLER BEG PREKINUT ĆE TRGOVINU UDH S MLETAČKOM REPUBLIKOM PREUSMJERITI NA DUBROVNIK,sadness,sadness,3.440587135,3.291537204,dev,cres_v2.1/audio_files_16000/579.wav,sadness
+188,1127,m,adult,325,real,SEZAM SE OTVORIO,neutral,neutral,5.616795021,4.46330048,dev,cres_v2.1/audio_files_16000/1127.wav,neutral
+189,995,m,adult,231,acted,AJOOOJ JEBO JA SVOJU MAJKU ß UDH JEBO JA SVOJU MILU MAJKU LJUDI,fear,anger,1.639528526,8.169691408,dev,cres_v2.1/audio_files_16000/995.wav,anger
+190,329,f,adult,87,real,KAKO SU OVE GODINE BOŽIĆ I NOVA GODINA U DANE VIKENDA HRVATI INAČE MAJSTORI U SPAJANJU BLAGDANA S RADNIM DANIMA I VIKENDIMA UDH IMALI SU MANJE MANEVARSKOG PROSTORA ,neutral,neutral,4.938919772,4.195538123,dev,cres_v2.1/audio_files_16000/329.wav,neutral
+191,563,f,adult,173,acted,EVO JE,fear,fear,2.062187135,8.343754801,dev,cres_v2.1/audio_files_16000/563.wav,fear
+192,953,m,adolescent,276,acted,OSVETIĆEMO TE BRATE JEBAĆEMO IM MAMU PEDERSKU,sadness,anger,2.694738714,7.811014387,dev,cres_v2.1/audio_files_16000/953.wav,anger
+193,382,m,adult,117,real,KAO JURA I HIII NENO,happiness,happiness,6.856594006,5.62192428,dev,cres_v2.1/audio_files_16000/382.wav,happiness
+194,185,f,adult,42,acted,ŠTA JE ŠTA VAS DVIJE KURAC BULJITE ŠTA VAS MUČI,anger,anger,2.019306361,8.38580622,dev,cres_v2.1/audio_files_16000/185.wav,anger
+195,724,f,adult,233,acted,OPROSTITE GOSPODINE PETAR JEL TAKO MISLILA SAM DA JE NETKO OD MOJIH,fear,fear,4.854952347,4.189884385,dev,cres_v2.1/audio_files_16000/724.wav,fear
+196,565,f,child,174,acted,I TI MENE OVAJ VUČE I SRCE MI TAKO TUČE,fear,fear,5.486820405,6.787120544,dev,cres_v2.1/audio_files_16000/565.wav,fear
+197,940,f,adult,267,real,NJIH SAM ODVEZLA A VRATILA SAM SE RADI STARIH RODITELJA,sadness,sadness,2.203778114,5.301277313,dev,cres_v2.1/audio_files_16000/940.wav,sadness
+198,289,m,adult,63,real,JEDNO SEDAM DANA VAM JE NEKIH TRISTO DO ČETRISTO KUNA TRISTOČETRDESET TRISTOPEDESET KUNA,neutral,neutral,5.750681844,4.119397813,dev,cres_v2.1/audio_files_16000/289.wav,neutral
+199,1081,m,adult,314,real,TEHNOLOGIJE O KOJIMA MI ČAK I DANAS MOŽEMO SANJATI RECIMO TEHNOLOGIJE OMEKŠAVANJA ILI TOPLJENJA KAMENA,neutral,neutral,5.230482889,3.630037535,dev,cres_v2.1/audio_files_16000/1081.wav,neutral
+200,832,m,adult,278,acted,NIJE NIJE NE HEHE PA TU JE KINO,happiness,happiness,7.578659845,5.820123735,dev,cres_v2.1/audio_files_16000/832.wav,happiness
+201,198,f,adult,48,real,PA NISAM REKLA DA NEĆU TEK SMO SAD SJELA I PUSTI,anger,anger,3.645662136,4.392036152,dev,cres_v2.1/audio_files_16000/198.wav,anger
