@@ -95,3 +95,7 @@ nohup.out
 # data
 cres_v2.1.zip
 cres_v2.1/*
+
+# training related
+models/*
+wandb/*
