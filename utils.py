@@ -199,7 +199,7 @@ def eval_model(config_dict):
         attentions: Optional[Tuple[torch.FloatTensor]] = None
 
 
-    result = test_dataset.map(predict, batched=True, batch_size=8)
+    result = test_dataset.map(predict, batched=True, batch_size=2)
 
     # %%
     label_names = [config.id2label[i] for i in range(config.num_labels)]
