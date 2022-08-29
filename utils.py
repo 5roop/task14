@@ -1,5 +1,5 @@
 
-
+import numpy as np
 example_eval_config = {
     "output_column": "Speaker_age_group",
     "model_name_or_path":  "./models/facebook_wav2vec2-large-slavic-voxpopuli-v2_age_clf_male_15epochs_v2_/checkpoint-2625",
@@ -576,6 +576,7 @@ def train_model(config_dict: dict):
         logging_steps=10,
         learning_rate=1e-4,
         save_total_limit=1,
+        seed = np.random.randint(0, 100), # Guarantee different seed at every execution
     )
 
     from typing import Any, Dict, Union
