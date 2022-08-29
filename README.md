@@ -25,3 +25,28 @@ A bash script for upsampling will be prepared to mitigate this.
 
 All of the work so far has been done in [the first notebook](001_dataset_introspection.ipynb). The target column should be 'discrete_emotion_annotation_phase', as agreed in an email by Branimir.
 
+# Addendum 2022-08-24T11:10:17
+
+Model "classla/wav2vec2-large-slavic-parlaspeech-hr" does not train as the other two, due to Memory issues on the GPU. Also, when training it, the disk filled up, so I had to clean the disk a bit. To try to get around that I also implemented clipping to 10 seconds for this particular model. This combination then finally worked fine.
+
+
+
+
+# Addendum 2022-08-25T10:33:01
+
+Presumed optimal hyperparameters:
+
+| model                                          | best epoch nr | best accuracy on dev @ presumed optimal nr of epochs |
+|------------------------------------------------|---------------|------------------------------------------------------|
+| "facebook/wav2vec2-large-960h-lv60-self",      | 9             | 0.73                                                 |
+| "facebook/wav2vec2-large-slavic-voxpopuli-v2"  | 11            | 0.74                                                 |
+| "classla/wav2vec2-large-slavic-parlaspeech-hr" | 7             | 0.75                                                 |
+
+So far HuBERT has proved difficult to handle, there is a bunch of bugs being raised due to: `AttributeError: 'HubertConfig' object has no attribute 'add_adapter'`, although this attribute is not used anywhere in my code...
+
+Upon analyzing the results, two things became obvious: 
+* the calculated accuracy and macroF1 values are often repeated, and the confusion matrices often seem very much alike. Is this due overfitting?
+* On both metrics test performs worse than dev. 
+
+Meeting notes:
+* Get Nikola model outputs for a random run in form of utterance_id, y_true, y_pred
