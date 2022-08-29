@@ -50,3 +50,7 @@ Upon analyzing the results, two things became obvious:
 
 Meeting notes:
 * Get Nikola model outputs for a random run in form of utterance_id, y_true, y_pred
+
+# Addendum 2022-08-29T11:45:51
+
+The outputs for Nikola are [here](005_analysis_of_outputs.jsonl)
