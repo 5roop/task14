@@ -275,7 +275,7 @@ def train_model(config_dict: dict):
     print(f"A classification problem with {num_labels} classes: {label_list}")
 
     # %%
-    from transformers import AutoConfig, Wav2Vec2Processor
+    from transformers import AutoConfig, Wav2Vec2Processor, HubertConfig
 
     pooling_mode = "mean"
 
@@ -287,6 +287,8 @@ def train_model(config_dict: dict):
         finetuning_task="wav2vec2_clf",
     )
     setattr(config, 'pooling_mode', pooling_mode)
+    if "hubert" in model_name_or_path:
+        setattr(config, "add_adapter", False)
 
     try:
         processor = Wav2Vec2Processor.from_pretrained(model_name_or_path,)
