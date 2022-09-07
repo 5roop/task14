@@ -288,7 +288,14 @@ def train_model(config_dict: dict):
     )
     setattr(config, 'pooling_mode', pooling_mode)
     if "hubert" in model_name_or_path:
-        setattr(config, "add_adapter", False)
+        setattr(config, "add_adapter", True)
+        if "xlarge" in model_name_or_path:
+            setattr(config, "output_hidden_size", 1280)
+        else:
+            setattr(config, "output_hidden_size", 1024)
+        setattr(config, "num_adapter_layers", 7)
+        setattr(config, "adapter_kernel_size", 3)
+        setattr(config, "adapter_stride", 7)
 
     try:
         processor = Wav2Vec2Processor.from_pretrained(model_name_or_path,)
