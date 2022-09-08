@@ -96,3 +96,9 @@ The above error seems to be avoidable with additional `if` clause:
 ```
 
 
+
+
+# Addendum 2022-09-08T08:47:42
+
+* Remove outliers by accuracy < 0.5
+* Prepare Dummy classifier baselines for dev, test
