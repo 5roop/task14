@@ -4,9 +4,9 @@ checkpoints = [
     # "facebook/wav2vec2-large-slavic-voxpopuli-v2",
     # "facebook/wav2vec2-large-960h-lv60-self",
     # "classla/wav2vec2-large-slavic-parlaspeech-hr",
-    # "facebook/hubert-large-ls960-ft",
-    # "facebook/hubert-xlarge-ls960-ft",
     "facebook/hubert-base-ls960",
+    "facebook/hubert-large-ls960-ft",
+    "facebook/hubert-xlarge-ls960-ft",
 ]
 optimal_epochs = {
     "facebook/wav2vec2-large-960h-lv60-self": 9,
@@ -19,7 +19,7 @@ optimal_epochs = {
 }
 from utils import train_model, eval_model
 from hubertutils import train_model as hu_train_model, eval_model as hu_eval_model
-for checkpoint in checkpoints * 3:
+for checkpoint in checkpoints:
     import os
     os.system("rm -r models/*")
     train_config = dict(
