@@ -100,5 +100,9 @@ The above error seems to be avoidable with additional `if` clause:
 
 # Addendum 2022-09-08T08:47:42
 
-* Remove outliers by accuracy < 0.5
-* Prepare Dummy classifier baselines for dev, test
+* Remove outliers by accuracy < 0.5 ✓
+* Prepare Dummy classifier baselines for dev, test ✓-> max accuracy on any split with any strategy: 0.3, max macro F1: 0.2
+
+
+# Addendum 2022-09-12T13:03:13
+Research what layer the classification comes from, also from ASR.
