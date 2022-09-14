@@ -3,18 +3,19 @@ import numpy as np
 example_eval_config = {
     "output_column": "Speaker_age_group",
     "model_name_or_path":  "./models/facebook_wav2vec2-large-slavic-voxpopuli-v2_age_clf_male_15epochs_v2_/checkpoint-2625",
-    "eval_file" : "005_testv2_males.csv"
+    "eval_file": "005_testv2_males.csv"
 }
+
 
 def eval_model(config_dict):
     import librosa
     from sklearn.metrics import classification_report
     from datasets import load_dataset
 
-
     output_column = config_dict.get("output_column")
-    model_name_or_path =config_dict.get("model_name_or_path")
-    test_dataset = load_dataset("csv", data_files={"test": config_dict.get("eval_file")}, delimiter=",")["test"]
+    model_name_or_path = config_dict.get("model_name_or_path")
+    test_dataset = load_dataset(
+        "csv", data_files={"test": config_dict.get("eval_file")}, delimiter=",")["test"]
     import torch
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -27,7 +28,6 @@ def eval_model(config_dict):
         Wav2Vec2PreTrainedModel,
         Wav2Vec2Model
     )
-
 
     class Wav2Vec2ClassificationHead(nn.Module):
         """Head for wav2vec classification task."""
@@ -46,7 +46,6 @@ def eval_model(config_dict):
             x = self.dropout(x)
             x = self.out_proj(x)
             return x
-
 
     class Wav2Vec2ForSpeechClassification(Wav2Vec2PreTrainedModel):
         def __init__(self, config):
