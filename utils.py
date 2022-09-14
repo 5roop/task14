@@ -97,7 +97,8 @@ def eval_model(config_dict):
                 return_dict=return_dict,
             )
             hidden_states = outputs[0]
-            hidden_states = self.merged_strategy(hidden_states, mode=self.pooling_mode)
+            hidden_states = self.merged_strategy(
+                hidden_states, mode=self.pooling_mode)
             logits = self.classifier(hidden_states)
 
             loss = None
@@ -115,7 +116,8 @@ def eval_model(config_dict):
                     loss = loss_fct(logits.view(-1, self.num_labels), labels)
                 elif self.config.problem_type == "single_label_classification":
                     loss_fct = CrossEntropyLoss()
-                    loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+                    loss = loss_fct(
+                        logits.view(-1, self.num_labels), labels.view(-1))
                 elif self.config.problem_type == "multi_label_classification":
                     loss_fct = BCEWithLogitsLoss()
                     loss = loss_fct(logits, labels)
@@ -147,32 +149,35 @@ def eval_model(config_dict):
             do_normalize=True,
             return_attention_mask=True,
         )
-        processor = Wav2Vec2Processor(feature_extractor=feature_extractor, tokenizer=tokenizer)
+        processor = Wav2Vec2Processor(
+            feature_extractor=feature_extractor, tokenizer=tokenizer)
 
-    model = Wav2Vec2ForSpeechClassification.from_pretrained(model_name_or_path).to(device)
+    model = Wav2Vec2ForSpeechClassification.from_pretrained(
+        model_name_or_path).to(device)
 
     # %%
     def speech_file_to_array_fn(batch):
         speech_array, sampling_rate = torchaudio.load(batch["path"])
         speech_array = speech_array.squeeze().numpy()
-        speech_array = librosa.resample(np.asarray(speech_array), sampling_rate, processor.feature_extractor.sampling_rate)
+        speech_array = librosa.resample(np.asarray(
+            speech_array), sampling_rate, processor.feature_extractor.sampling_rate)
 
 
-# /home/peterr/macocu/task11/utils.py:159: FutureWarning: 
-# Pass orig_sr=16000, target_sr=16000 as keyword args. 
+# /home/peterr/macocu/task11/utils.py:159: FutureWarning:
+# Pass orig_sr=16000, target_sr=16000 as keyword args.
 # From version 0.10 passing these as positional arguments will result in an error
         batch["speech"] = speech_array
         return batch
 
-
     def predict(batch):
-        features = processor(batch["speech"], sampling_rate=processor.feature_extractor.sampling_rate, return_tensors="pt", padding=True)
+        features = processor(
+            batch["speech"], sampling_rate=processor.feature_extractor.sampling_rate, return_tensors="pt", padding=True)
 
         input_values = features.input_values.to(device)
         attention_mask = features.attention_mask.to(device)
 
         with torch.no_grad():
-            logits = model(input_values, attention_mask=attention_mask).logits 
+            logits = model(input_values, attention_mask=attention_mask).logits
 
         pred_ids = torch.argmax(logits, dim=-1).detach().cpu().numpy()
         batch["predicted"] = pred_ids
@@ -189,7 +194,6 @@ def eval_model(config_dict):
     import torch
     from transformers.file_utils import ModelOutput
 
-
     @dataclass
     class SpeechClassifierOutput(ModelOutput):
         loss: Optional[torch.FloatTensor] = None
@@ -197,17 +201,15 @@ def eval_model(config_dict):
         hidden_states: Optional[Tuple[torch.FloatTensor]] = None
         attentions: Optional[Tuple[torch.FloatTensor]] = None
 
-
+    
     result = test_dataset.map(predict, batched=True, batch_size=2)
 
     # %%
     label_names = [config.id2label[i] for i in range(config.num_labels)]
 
-
     # %%
     y_true = [config.label2id[name] for name in result[output_column]]
     y_pred = result["predicted"]
-
 
     # %%
 
@@ -215,17 +217,19 @@ def eval_model(config_dict):
     y_pred = [config.id2label[name] for name in result["predicted"]]
     return y_true, y_pred
 
+
 # %%
 example_train_config = dict(
-    model_name_or_path = "facebook/wav2vec2-large-slavic-voxpopuli-v2",
-    TASK = "age_clf_female_15epochs_v2",
-    NUM_EPOCH = 15,
-    data_files = {
+    model_name_or_path="facebook/wav2vec2-large-slavic-voxpopuli-v2",
+    TASK="age_clf_female_15epochs_v2",
+    NUM_EPOCH=15,
+    data_files={
         "train": "005_trainv2_females.csv",
         "validation": "005_testv2_females.csv",
     },
-    clip_seconds = 2
+    clip_seconds=2
 )
+
 
 def train_model(config_dict: dict):
     import numpy as np
@@ -240,11 +244,12 @@ def train_model(config_dict: dict):
     import os
     import sys
 
-
-    model_name_or_path = config_dict.get("model_name_or_path", "facebook/wav2vec2-large-slavic-voxpopuli-v2")
+    model_name_or_path = config_dict.get(
+        "model_name_or_path", "facebook/wav2vec2-large-slavic-voxpopuli-v2")
 
     TASK = config_dict.get("TASK")
-    OUTPUT_DIR = "models/"+model_name_or_path.replace("/", "_") + "_" + TASK+"_"
+    OUTPUT_DIR = "models/" + \
+        model_name_or_path.replace("/", "_") + "_" + TASK+"_"
     NUM_EPOCH = config_dict.get("NUM_EPOCH")
     # %%
 
@@ -256,13 +261,11 @@ def train_model(config_dict: dict):
 
     from datasets import load_dataset, load_metric
 
-
     data_files = config_dict.get("data_files")
 
-    dataset = load_dataset("csv", data_files=data_files )
+    dataset = load_dataset("csv", data_files=data_files)
     train_dataset = dataset["train"]
     eval_dataset = dataset["validation"]
-
 
     # %%
     input_column = config_dict.get("input_column", "path")
@@ -310,15 +313,16 @@ def train_model(config_dict: dict):
             do_normalize=True,
             return_attention_mask=True,
         )
-        processor = Wav2Vec2Processor(feature_extractor=feature_extractor, tokenizer=tokenizer)
+        processor = Wav2Vec2Processor(
+            feature_extractor=feature_extractor, tokenizer=tokenizer)
 
     target_sampling_rate = processor.feature_extractor.sampling_rate
     print(f"The target sampling rate: {target_sampling_rate}")
 
-
     def speech_file_to_array_fn(path):
         speech_array, sampling_rate = torchaudio.load(path)
-        resampler = torchaudio.transforms.Resample(sampling_rate, target_sampling_rate)
+        resampler = torchaudio.transforms.Resample(
+            sampling_rate, target_sampling_rate)
         speech = resampler(speech_array).squeeze().numpy()
         clip_seconds = config_dict.get("clip_seconds", -1)
         if clip_seconds == -1:
@@ -334,8 +338,10 @@ def train_model(config_dict: dict):
         return label
 
     def preprocess_function(examples):
-        speech_list = [speech_file_to_array_fn(path) for path in examples[input_column]]
-        target_list = [label_to_id(label, label_list) for label in examples[output_column]]
+        speech_list = [speech_file_to_array_fn(
+            path) for path in examples[input_column]]
+        target_list = [label_to_id(label, label_list)
+                       for label in examples[output_column]]
 
         result = processor(speech_list, sampling_rate=target_sampling_rate)
         result["labels"] = list(target_list)
@@ -362,14 +368,12 @@ def train_model(config_dict: dict):
     import torch
     from transformers.file_utils import ModelOutput
 
-
     @dataclass
     class SpeechClassifierOutput(ModelOutput):
         loss: Optional[torch.FloatTensor] = None
         logits: torch.FloatTensor = None
         hidden_states: Optional[Tuple[torch.FloatTensor]] = None
         attentions: Optional[Tuple[torch.FloatTensor]] = None
-
 
     # %%
     import torch
@@ -380,7 +384,6 @@ def train_model(config_dict: dict):
         Wav2Vec2PreTrainedModel,
         Wav2Vec2Model
     )
-
 
     class Wav2Vec2ClassificationHead(nn.Module):
         """Head for wav2vec classification task."""
@@ -399,7 +402,6 @@ def train_model(config_dict: dict):
             x = self.dropout(x)
             x = self.out_proj(x)
             return x
-
 
     class Wav2Vec2ForSpeechClassification(Wav2Vec2PreTrainedModel):
         def __init__(self, config):
@@ -451,7 +453,8 @@ def train_model(config_dict: dict):
                 return_dict=return_dict,
             )
             hidden_states = outputs[0]
-            hidden_states = self.merged_strategy(hidden_states, mode=self.pooling_mode)
+            hidden_states = self.merged_strategy(
+                hidden_states, mode=self.pooling_mode)
             logits = self.classifier(hidden_states)
 
             loss = None
@@ -469,7 +472,8 @@ def train_model(config_dict: dict):
                     loss = loss_fct(logits.view(-1, self.num_labels), labels)
                 elif self.config.problem_type == "single_label_classification":
                     loss_fct = CrossEntropyLoss()
-                    loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+                    loss = loss_fct(
+                        logits.view(-1, self.num_labels), labels.view(-1))
                 elif self.config.problem_type == "multi_label_classification":
                     loss_fct = BCEWithLogitsLoss()
                     loss = loss_fct(logits, labels)
@@ -485,14 +489,12 @@ def train_model(config_dict: dict):
                 attentions=outputs.attentions,
             )
 
-
     from dataclasses import dataclass
     from typing import Dict, List, Optional, Union
     import torch
 
     import transformers
     from transformers import Wav2Vec2Processor
-
 
     @dataclass
     class DataCollatorCTCWithPadding:
@@ -528,10 +530,12 @@ def train_model(config_dict: dict):
         pad_to_multiple_of_labels: Optional[int] = None
 
         def __call__(self, features: List[Dict[str, Union[List[int], torch.Tensor]]]) -> Dict[str, torch.Tensor]:
-            input_features = [{"input_values": feature["input_values"]} for feature in features]
+            input_features = [{"input_values": feature["input_values"]}
+                              for feature in features]
             label_features = [feature["labels"] for feature in features]
 
-            d_type = torch.long if isinstance(label_features[0], int) else torch.float
+            d_type = torch.long if isinstance(
+                label_features[0], int) else torch.float
 
             batch = self.processor.pad(
                 input_features,
@@ -545,15 +549,19 @@ def train_model(config_dict: dict):
 
             return batch
 
-    data_collator = DataCollatorCTCWithPadding(processor=processor, padding=True)
+    data_collator = DataCollatorCTCWithPadding(
+        processor=processor, padding=True)
 
     import numpy as np
     from transformers import EvalPrediction
 
     is_regression = False
+
     def compute_metrics(p: EvalPrediction):
-        preds = p.predictions[0] if isinstance(p.predictions, tuple) else p.predictions
-        preds = np.squeeze(preds) if is_regression else np.argmax(preds, axis=1)
+        preds = p.predictions[0] if isinstance(
+            p.predictions, tuple) else p.predictions
+        preds = np.squeeze(
+            preds) if is_regression else np.argmax(preds, axis=1)
 
         if is_regression:
             return {"mse": ((preds - p.label_ids) ** 2).mean().item()}
@@ -584,7 +592,8 @@ def train_model(config_dict: dict):
         logging_steps=10,
         learning_rate=1e-4,
         save_total_limit=1,
-        seed = np.random.randint(0, 100), # Guarantee different seed at every execution
+        # Guarantee different seed at every execution
+        seed=np.random.randint(0, 100),
     )
 
     from typing import Any, Dict, Union
@@ -604,7 +613,6 @@ def train_model(config_dict: dict):
     if version.parse(torch.__version__) >= version.parse("1.6"):
         _is_native_amp_available = True
         from torch.cuda.amp import autocast
-
 
     class CTCTrainer(Trainer):
         def training_step(self, model: nn.Module, inputs: Dict[str, Union[torch.Tensor, Any]]) -> torch.Tensor:
