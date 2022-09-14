@@ -1,0 +1,2 @@
+,utterance_id,gender,age,speaker_id,expression,manual_transcription,discrete_emotion_collection_phase,discrete_emotion_annotation_phase,valence_annotation_phase,arousal_annotation_phase,split,path,target
+0,720,m,adult,228,acted,IVA ČUVAJ SE,fear,fear,2.410640134,7.089291422,test,cres_v2.1/audio_files_16000/720.wav,fear

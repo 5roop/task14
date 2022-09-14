@@ -13,17 +13,19 @@ optimal_epochs = {
 }
 from utils import train_model, eval_model
 results = []
-for checkpoint in checkpoints:
-    output_dir = "models/facebook_wav2vec2-large-960h-lv60-self_emotion_optimal_epochs_"
-    import numpy as np
-    split = "test"
-    from pathlib import Path
-    found_path = str(list(Path(output_dir).glob("checkpoint-*"))[0])
-    print(f"For checkpoint: {checkpoint} a path was found: ", found_path)
-    eval_config = dict(
-        output_column = "target",
-        model_name_or_path= found_path ,
-        eval_file= f"001_{split}.csv"
-    )
+checkpoint = checkpoints[0]
+output_dir = "models/facebook_wav2vec2-large-960h-lv60-self_emotion_optimal_epochs_"
+import numpy as np
+split = "test"
+from pathlib import Path
+found_path = str(list(Path(output_dir).glob("checkpoint-*"))[0])
+print(f"For checkpoint: {checkpoint} a path was found: ", found_path)
+eval_config = dict(
+    output_column = "target",
+    model_name_or_path= found_path ,
+    eval_file= f"010_debug.csv"
+)
 
-    y_true, y_pred = eval_model(eval_config)
+y_true, y_pred = eval_model(eval_config)
+
+print("Done")
