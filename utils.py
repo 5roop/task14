@@ -585,13 +585,13 @@ def train_model(config_dict: dict):
         evaluation_strategy="epoch",
         save_strategy="epoch",
         num_train_epochs=NUM_EPOCH,
-        # save_total_limit=2,
+        # save_total_limit=1,
+        save_total_limit = config_dict.get("save_total_limit", 1),
         fp16=True,
         # save_steps=500,
         # eval_steps=100,
         logging_steps=10,
         learning_rate=1e-4,
-        save_total_limit=1,
         # Guarantee different seed at every execution
         seed=np.random.randint(0, 100),
     )
