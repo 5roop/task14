@@ -99,3 +99,5 @@ cres_v2.1/*
 # training related
 models/*
 wandb/*
+JVsample/*
+PSsample/*
